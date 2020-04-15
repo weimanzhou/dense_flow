@@ -12,9 +12,14 @@ mkdir target
 ./i_dense_flow
 # 执行后的 target 目录结构
 # target
-#   |- image
-#   |- x_flow
-#   |- y_flow
+#   |- avi_file_name
+#       |- image
+#       |- x_flow
+#       |- y_flow
+#   |- avi_file_name
+#       |- image
+#       |- x_flow
+#       |- y_flow
 ```
 
 Exmaple:
@@ -28,7 +33,6 @@ source/
 
 $ ./i_dense_flow
 $ tree target -L 2
-$ tree target/ -L 2
 target/
 ├── fil_cat
 │   ├── image
