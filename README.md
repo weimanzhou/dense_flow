@@ -1,9 +1,14 @@
 This is a sample code for extrating dense flow field given a video.
 
+Dependences:
+- opencv3.1.0
+
+只使用 i_dense_flow.cpp 即可
+
 Usage:
 ```bash
-git clone url
-cd dense_flow-master
+git clone https://github.com/weimanzhou/dense_flow.git
+cd dense_flow
 g++ i_dense_flow.cpp -o i_dense_flow `pkg-config --cflags --libs opencv`
 # 创建 source 文件夹，存放 avi 格式视频的位置
 mkdir source
